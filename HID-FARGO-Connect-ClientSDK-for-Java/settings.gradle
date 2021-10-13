@@ -1,0 +1,4 @@
+/*
+ * HID FARGO Connect Java SDK - Sample Application Build Script
+ */
+rootProject.name = 'SampleApplication'

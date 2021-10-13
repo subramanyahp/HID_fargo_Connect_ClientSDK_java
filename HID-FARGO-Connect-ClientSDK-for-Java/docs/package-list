@@ -1,0 +1,7 @@
+com.extensia.xcp.services.restapi.client
+com.extensia.xcp.services.restapi.model
+com.extensia.xcp.services.restapi.model.cardread
+com.extensia.xcp.services.restapi.model.parameters
+com.extensia.xcp.services.restapi.model.parameters.converters
+com.extensia.xcp.services.restapi.model.parameters.validators
+com.extensia.xcp.services.restapi.model.service

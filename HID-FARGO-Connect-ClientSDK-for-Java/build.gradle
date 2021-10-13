@@ -1,0 +1,25 @@
+/*
+ * HID FARGO Connect Java SDK - Sample Application Build Script
+ */
+plugins {
+  id 'java'
+  id 'application'
+}
+
+repositories {
+  jcenter()
+}
+
+mainClassName = 'examples.SampleApplication'
+
+dependencies {
+  compile files('libs/xcp-card-services-java-rest-api-1.7.0.jar')
+  compile('org.glassfish.jersey.core:jersey-client:2.25.1')
+  compile('org.glassfish.jersey.media:jersey-media-multipart:2.25.1')
+  compile('org.glassfish.jersey.media:jersey-media-json-jackson:2.25.1')
+  compile('com.fasterxml.jackson.core:jackson-core:2.10.5')
+  compile('com.fasterxml.jackson.core:jackson-databind:2.10.5')
+  compile('com.fasterxml.jackson.core:jackson-annotations:2.10.5')
+  compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.5')
+  compile('org.bouncycastle:bcprov-jdk15on:1.66')
+}
